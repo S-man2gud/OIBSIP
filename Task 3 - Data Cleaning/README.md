@@ -33,7 +33,7 @@ By addressing common data quality issues like missing values, duplicates, and ou
 
 ## How to Use
 1. Clone this repository:
-git clone git clone https://github.com/S-man2gud/OIBSIP/blob/main/Task%203%20-%20Data%20Cleaning
+git clone git clone [ https://github.com/S-man2gud/retail-sales-eda.git](https://github.com/S-man2gud/OIBSIP/blob/main/Task%203%20-%20Data%20Cleaning)
 
 2. Navigate to the project directory:
 cd nyc-airbnb-data-cleaning
