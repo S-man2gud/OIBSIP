@@ -18,83 +18,64 @@ The dataset contains 2,205 customer records with the following features:
 - Demographics: Income, Age, Household Composition (Kids, Teens).
 - Engagement Metrics: Recency of last purchase, number of web visits, catalog purchases, and store visits.
 - Spending Behavior: Total spending across categories (e.g., wine, meat, fruits).
-Sample Features:
-|  Feature |	Description   |
-|  Income  |	Annual income of the customer.  |
-|MntWines	|Spending on wines.|
-|NumWebPurchases	|Number of purchases via the website.|
-|Recency	|Days since last purchase.|
 
-Methodology
-Data Preparation:
+## Methodology
+1. Data Preparation:
+- Cleaning and selecting relevant features.
+- Standardizing data for clustering.
 
-Cleaning and selecting relevant features.
-Standardizing data for clustering.
-Cluster Analysis:
+2. Cluster Analysis:
+- Determined the optimal number of clusters using the Elbow Method.
+- Performed clustering using K-Means.
 
-Determined the optimal number of clusters using the Elbow Method.
-Performed clustering using K-Means.
-Visualization:
+3. Visualization:
+- Reduced dimensions using PCA for a 2D representation.
+- Visualized clusters to identify distinct customer segments.
 
-Reduced dimensions using PCA for a 2D representation.
-Visualized clusters to identify distinct customer segments.
-Insights and Recommendations:
+4. Insights and Recommendations:
+- Analyzed cluster characteristics.
+- Proposed actionable strategies tailored to each segment.
 
-Analyzed cluster characteristics.
-Proposed actionable strategies tailored to each segment.
-Key Findings
-Cluster Characteristics:
+## Key Findings
+1. Cluster Characteristics:
+- High-Income, High-Spending Customers: Prefer luxury items.
+- Budget-Conscious Customers: Respond to promotions and discounts.
+- Family-Oriented Customers: Spend more on essentials and family needs.
+- Inactive Customers: Low engagement and need reactivation strategies.
 
-High-Income, High-Spending Customers: Prefer luxury items.
-Budget-Conscious Customers: Respond to promotions and discounts.
-Family-Oriented Customers: Spend more on essentials and family needs.
-Inactive Customers: Low engagement and need reactivation strategies.
-Optimal Clusters Identified: 4 distinct customer groups.
+2. Optimal Clusters Identified: 4 distinct customer groups.
 
-Actionable Recommendations:
+3. Actionable Recommendations:
+- Implement loyalty programs, family bundles, and reactivation campaigns.
+- Tailor digital marketing strategies for online-savvy customers.
 
-Implement loyalty programs, family bundles, and reactivation campaigns.
-Tailor digital marketing strategies for online-savvy customers.
-Technologies Used
-Programming Language: Python
-Libraries:
-pandas and numpy for data manipulation.
-scikit-learn for clustering and PCA.
-matplotlib and seaborn for data visualization.
-Usage Instructions
-Prerequisites
-Install Python 3.8 or later.
-Install required libraries using pip:
-bash
-Copy code
+## Technologies Used
+- Programming Language: Python
+- Libraries:
+  - pandas and numpy for data manipulation.
+  - scikit-learn for clustering and PCA.
+  - matplotlib and seaborn for data visualization.
+
+## Usage Instructions
+### Prerequisites
+- Install Python 3.8 or later.
+- Install required libraries using pip:
+
 pip install pandas numpy scikit-learn matplotlib seaborn
-Steps to Run the Project
-Clone this repository:
-bash
-Copy code
+
+### Steps to Run the Project
+1. Clone this repository:
 git clone https://github.com/yourusername/customer-segmentation.git
 cd customer-segmentation
-Add the dataset to the project directory (ifood_df.csv).
-Run the Jupyter notebook or Python script for analysis:
-bash
-Copy code
-python segmentation_analysis.py
-View visualizations and results.
-Next Steps
-Advanced Clustering: Explore other clustering methods like DBSCAN or hierarchical clustering.
-Feature Engineering: Add new features to improve segmentation.
-Automated Reports: Create dashboards for real-time segmentation analysis.
-Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
-How to Contribute
-Fork the repository.
-Create a new branch for your feature:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Description of feature"
-Push to your fork and create a pull request.
+2. Add the dataset to the project directory (ifood_df.csv).
+
+3. Run the Jupyter notebook or Python script for analysis:
+
+4. python segmentation_analysis.py
+5. View visualizations and results.
+
+## Next Steps
+- Advanced Clustering: Explore other clustering methods like DBSCAN or hierarchical clustering.
+- Feature Engineering: Add new features to improve segmentation.
+- Automated Reports: Create dashboards for real-time segmentation analysis.
