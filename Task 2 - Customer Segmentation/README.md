@@ -65,7 +65,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ### Steps to Run the Project
 1. Clone this repository:
-git clone https://github.com/yourusername/customer-segmentation.git
+git clone https://github.com/S-man2gud/OIBSIP/tree/main/Task%202%20-%20Customer%20Segmentation
 cd customer-segmentation
 
 2. Add the dataset to the project directory (ifood_df.csv).
