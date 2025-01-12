@@ -33,7 +33,7 @@ By addressing common data quality issues like missing values, duplicates, and ou
 
 ## How to Use
 1. Clone this repository:
-git clone https://github.com/S-man2gud/nyc-airbnb-data-cleaning.git
+git clone Task 3 - Data Cleaning/Data Cleaning of AB_NYC_2019.ipynb
 
 2. Navigate to the project directory:
 cd nyc-airbnb-data-cleaning
