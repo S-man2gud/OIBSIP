@@ -25,7 +25,7 @@ Suggested practical steps like introducing low-calorie menu options, reducing so
 
 ## Setup Instructions
 1. Clone the repository:
-git clone https://github.com/your-username/retail-sales-eda.git
+git clone [https://github.com/your-S-man2gud/retail-sales-eda.git](https://github.com/S-man2gud/OIBSIP/blob/main/Task%201%20-%20EDA%20on%20Retail%20Dataset/EDA%20on%20Mc%20Donalds%20Menu%20Project)
 
 2. Navigate to the project directory:
 cd retail-sales-eda
