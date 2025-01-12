@@ -19,8 +19,8 @@ The dataset contains 2,205 customer records with the following features:
 - Engagement Metrics: Recency of last purchase, number of web visits, catalog purchases, and store visits.
 - Spending Behavior: Total spending across categories (e.g., wine, meat, fruits).
 Sample Features:
-|Feature |	Description |
-|Income|	Annual income of the customer.|
+|  Feature |	Description   |
+|  Income  |	Annual income of the customer.  |
 |MntWines	|Spending on wines.|
 |NumWebPurchases	|Number of purchases via the website.|
 |Recency	|Days since last purchase.|
